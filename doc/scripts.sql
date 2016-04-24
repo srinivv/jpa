@@ -1,0 +1,12 @@
+CREATE TABLE `users` (
+	`id` BIGINT(10) NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(120),
+	`login` VARCHAR(75) NOT NULL,
+	`password` VARCHAR(75) NOT NULL,
+	PRIMARY KEY (`id`)
+)
+COLLATE='latin1_swedish_ci'
+ENGINE=InnoDB
+ROW_FORMAT=DEFAULT
+AUTO_INCREMENT=1;
+commit;
